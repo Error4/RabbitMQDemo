@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    host: 192.168.124.20
+    port: 5672
+    #确认消息已发送到交换机(Exchange)
+    #确认消息已发送到队列(Queue)
+    publisher-returns: true
+    publisher-confirm-type: correlated
